@@ -23,7 +23,6 @@ requirements:
     - pybtex >=0.24
     - pybtex-docutils >=1
     - sphinx >=3.5
-    - importlib-metadata >=3.6
   run:
     - setuptools
     - python >={{ python_min }}
@@ -31,7 +30,6 @@ requirements:
     - pybtex >=0.25
     - pybtex-docutils >=1.0.2
     - sphinx >=7.4
-    - importlib-metadata >=3.6
 
 test:
   requires:
